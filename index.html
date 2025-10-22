@@ -17,40 +17,37 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <body class="bg-dark">
-      <div class="position-fixed top-50 translate-middle-y ms-4">
-        <nav class="nav flex-column gap-3 mt-2 mb-2">
-          <div
-            class="border border-black border-3 rounded-4 bg-info bg-success bg-opacity-10"
-          >
-            <a class="nav-link active my-2" href="#"
-              ><img
-                src="./assets/icons/nav_bar/dark_mode.svg"
-                alt="dark_mode"
-                height="25px"
-            /></a>
-          </div>
-          <div
-            class="border border-black border-3 rounded-4 bg-info bg-success bg-opacity-10"
-          >
-            <a class="nav-link active my-2" href="#"
+    <body id="color-1">
+      <div
+        class="position-fixed top-50 translate-middle-y ms-4 rounded-3 bg-opacity-10 py-3 px-2"
+        id="color-2"
+      >
+        <nav class="nav d-flex flex-column gap-3">
+          <div class="rounded-3 nav-item" id="color-3">
+            <a class="nav-link active" href="#"
               ><img
                 src="./assets/icons/nav_bar/home.svg"
                 alt="home.svg"
                 height="25px"
             /></a>
+          </div>
+          <div class="rounded-3 nav-item" id="color-3">
             <a class="nav-link active my-3" href="#"
               ><img
                 src="./assets/icons/nav_bar/about.svg"
                 alt="about"
                 height="25px"
             /></a>
+          </div>
+          <div class="rounded-3 nav-item" id="color-3">
             <a class="nav-link active my-3" href="#"
               ><img
                 src="./assets/icons/nav_bar/projects.svg"
                 alt="projects"
                 height="25px"
             /></a>
+          </div>
+          <div class="rounded-3 nav-item" id="color-3">
             <a class="nav-link active my-2" href="#"
               ><img
                 src="./assets/icons/nav_bar/contact.svg"
@@ -62,23 +59,53 @@
       </div>
 
       <section>
-        <div
-          class="container d-flex align-items-center justify-content-around gap-4 border p-3 top-50"
-          style="margin-top: 200"
-        >
-          <div class="border p-3">
-            <h1 class="text-white">Full Stack <br />Developer</h1>
-            <p class="text-white text-opacity-75">AAAAAAA</p>
-          </div>
+        <div class="border container" style="margin-top: 100">
           <div
-            class="border border-black border-4 rounded-circle overflow-hidden d-flex justify-content-center align-items-center"
-            style="width: 300px; height: 300px"
+            class="container d-flex align-items-center justify-content-around gap-4 rounded-3 p-3 top-50"
+            id="color-2"
           >
-            <img
-              src="./assets/images/profile/jake.png"
-              alt="jake"
-              height="200"
-            />
+            <div class="border">
+              <h1 class="text-white">Daniel C. Lago</h1>
+              <br />
+              <h2 class="text-white">Full Stack Developer</h2>
+            </div>
+            <div
+              class="rounded-5 overflow-hidden d-flex justify-content-center align-items-center"
+              id="color-4"
+              style="width: 250px; height: 250px"
+            >
+              <img
+                src="./assets/images/profile/jake.png"
+                alt="jake"
+                height="200"
+              />
+            </div>
+          </div>
+
+          <div class="border container d-flex px-5" style="margin-top: 100px">
+            <div class="container rounded-3 p-4 d-flex justify-content-center align-items-center" id="color-3" style="width: 500px; height: 300px;">
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                congue ante quis magna dictum, a venenatis tortor viverra. In
+                congue nunc a lectus iaculis aliquam. Donec ut porta lorem.
+                Vestibulum tristique lorem lectus, eget ullamcorper nisi viverra
+                tempor. Suspendisse augue lacus, sodales sit amet nibh eu,
+                finibus maximus ex.
+              </p>
+            </div>
+
+            <div class="container rounded-3 p-4 d-flex justify-content-center align-items-center" id="color-3" style="margin-left: 100; height: 300px;">
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                congue ante quis magna dictum, a venenatis tortor viverra. In
+                congue nunc a lectus iaculis aliquam. Donec ut porta lorem.
+                Vestibulum tristique lorem lectus, eget ullamcorper nisi viverra
+                tempor. Suspendisse augue lacus, sodales sit amet nibh eu,
+                finibus maximus ex. Curabitur mattis et sem quis sollicitudin.
+                Aliquam erat volutpat. Proin pharetra odio vitae nunc fermentum,
+                id pharetra mauris elementum.
+              </p>
+            </div>
           </div>
         </div>
       </section>
